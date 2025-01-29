@@ -5,6 +5,7 @@ import Feature from "./component/Feature";
 import Workflows from "./component/Workflows";
 import Pricing from "./component/Pricing";
 import Testimonials from "./component/Testimonials";
+import Footer from "./component/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Workflows/>
         <Pricing/>
         <Testimonials/>
+        <Footer/>
       </div>
     </div>
   );
