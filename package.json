@@ -1,5 +1,4 @@
 {
-  "homepage" : "https://sanjivks.github.io/",
   "name": "company-website",
   "private": true,
   "version": "0.0.0",
@@ -8,11 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://sanjivks.github.io/AeroLink/"
+    "preview": "vite preview", 
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
